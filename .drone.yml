@@ -3,7 +3,7 @@ name: default
 
 steps:
 - name: build
-  image:nginx
+  image: nginx
     commands:
     - echo "building..."
 - name: publish
