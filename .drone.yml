@@ -4,8 +4,8 @@ name: default
 steps:
 - name: build
   image: nginx
-    commands:
-    - echo "building..."
+  commands:
+  - echo "building..."
 - name: publish
   image: plugins/docker
   settings:
